@@ -351,5 +351,11 @@ instructions there.
       button *\<\> Code*, click on it and copy the URL from there. It is
       the same button you use to clone your repository.
   7.  Force push this new history to GitHub by
-      `git push --force origin main` in the TERMINAL.
-  8.  `git push --set-upstream origin main`
+      `git push --force origin main  --set-upstream origin main` in the
+      TERMINAL. Now everything should look alright on GitHub. Check it
+      by going to the website of your repository on GitHub and refresh
+      the page. You should see only the files you wanted to share and no
+      history except the new initial commit.
+  8.  A final step connects your `main` branch to the remote `main`
+      branch: Do `git push --set-upstream origin main`. Only if you do
+      this you can continue to push new stuff as usual.

@@ -117,5 +117,5 @@ Be aware that if you go public, everyone can see your repository and all its con
   4. Add all files which should be online to the staging area by `git add [file1] [file2] ...` or `git add .` for all files. Do not add the files which should not be online! They can stay untracked and will not be in the new history.
   5. Create a new commit by `git commit -m "Initial commit"` in the TERMINAL. Now, you have re-estabilshed a git repository locally with a single commit containing only the files you want to share. 
   6. Re-establish the connection to GitHub. To that end, you have to add the remote repository again by `git remote add origin <URL>` where `<URL>` is the URL of your repository on GitHub. You find the URL on the Projekt Website on GitHub. Watch out for the green button *<> Code*, click on it and copy the URL from there. It is the same button you use to clone your repository.
-  7. Force push this new history to GitHub by `git push --force origin main` in the TERMINAL. 
-  8. `git push --set-upstream origin main`
+  7. Force push this new history to GitHub by `git push --force origin main  --set-upstream origin main` in the TERMINAL. Now everything should look alright on GitHub. Check it by going to the website of your repository on GitHub and refresh the page. You should see only the files you wanted to share and no history except the new initial commit.
+  8. A final step connects your `main` branch to the remote `main` branch: Do `git push --set-upstream origin main`. Only if you do this you can continue to push new stuff as usual. 
