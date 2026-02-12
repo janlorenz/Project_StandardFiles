@@ -26,19 +26,22 @@ You can replace the content of the section *Information* above by a
 statement like:
 
 *I, \[Your Name\], worked through this project using the
-[INSTRUCTIONS](INSTRUCTIONS.md) in my own way. Beyond the concrete
-instructions I did original work: \[…\]*
+[INSTRUCTIONS](INSTRUCTIONS.md) in my own way. \[OPTIONAL: Beyond that I
+did original work: \[…\]\]*
 
 ### Usage Terms for a finished project for future students
 
 This code is made available for educational reference only. Students
 currently enrolled in similar courses having this as a Homework project
-must respect: - Do NOT copy code blindly for their own homework. Follow
-your instructions and do it yourself. - There is nothing wrong reading
-this. - Be aware that this project may differ from current assignments,
-and blindly copying code not fitting to your instructions can serve as
-evidence for plagiarism. - Follow your institution’s **academic
-integrity policy**!
+must respect:
+
+- Do NOT copy code blindly for their own homework. Follow your
+  instructions and do it yourself.
+- There is nothing wrong reading this.
+- Be aware that this project may differ from current assignments, and
+  blindly copying code not fitting to your instructions can serve as
+  evidence for plagiarism.
+- Follow your institution’s **academic integrity policy**!
 
 ### For teachers
 
