@@ -29,7 +29,7 @@ statement like:
 [INSTRUCTIONS](INSTRUCTIONS.md) in my own way. \[OPTIONAL: Beyond that I
 did original work: \[…\]\]*
 
-### Usage Terms for a finished project for future students
+### Usage Terms for future students with a similar Homework Project
 
 This code is made available for educational reference only. Students
 currently enrolled in similar courses having this as a Homework project
