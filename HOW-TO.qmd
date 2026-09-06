@@ -16,7 +16,7 @@ Needed software:
 
 - *Statistical Programming Language:* The instructions here are for [R](https://cran.r-project.org/), you can also use python but then you have to adapt instructions and setup yourself. 
 - *Version Control System:* [Git](https://git-scm.com/)
-- *Integrated Development Environment* (IDE): The instructor uses [Positron](https://Positron.posit.co/). All instructions here are based on this IDE. In the past the instructor used RStudio. People using python are often used to Visual Studio Code. As positron and Visual Studio Code are both built on Code - OSS, many things are similar. In prinple, you can use whatever you want.
+- *Integrated Development Environment* (IDE): The instructor uses [Positron](https://Positron.posit.co/). All instructions here are based on this IDE. In the past the instructor used RStudio. People using python are often used to Visual Studio Code. As Positron and Visual Studio Code are both built on Code - OSS, many things are similar. In prinple, you can use whatever you want.
  
 Test that everything works together:
 
@@ -39,7 +39,7 @@ Test that everything works together:
 
 ## Have git and GitHub working together
 
-**Note:** If you just want to work locally on your computer without having your own GitHub repository, you can just clone it from GitHub following the instruction below, but you will not be able to push your work to the repository.
+**Note:** If you just want to work locally on your computer without having your own GitHub repository, you can clone it from GitHub following the instruction below, but you will not be able to push your work to the repository.
 
 If you do this Project as part of a course, your instructor wants you to work on your own repository and commit and push your work to the repository on GitHub for review.
 
@@ -96,6 +96,17 @@ The **Tasks and Questions** for this Project are written in the [INSTRUCTIONS](I
 
   Now you have a repository with your Project Report on GitHub. Go to the website of your repository on GitHub and check that everything is there!
 
+## Should I use AI to do this Homework?
+
+Use it for learning. This Homework Project is intentionally not designed as an assignment which you need solve and hand in within a week. It mimics a real data science project but with much more guidance. 
+
+Probably it is possible to have an AI agent do this Homework Project completely without you having to look at it. It is interesting to try this. However, if you use it just fulfilling requirements you will learn almost nothing about doing data science yourself. Further on, it is almost sure that your instructor will recognize that it is not your work and that you are not engaging with the content.
+
+Use AI in a way that makes you better in understanding what is happening and how data wrangling, visualization, and analysis is done. 
+
+Finally: You have to take full responsibility of the content you deliver even if it is AI generated. If you do not know what you handed in, it has no value for no one.
+
+
 ## Solutions for common problems
 
 - **I cannot push, it gets rejected.** Read the Positron error message, also check the command output. It is likely that there is new content on the remote repository on GitHub which is not in sync with your local repository. (Maybe you or your instructor has changed a file on GitHub in the browser and thereby created a new commit there?) To solve this, you have to pull the new content from GitHub to your local repository and then push again. In Positron, you can do this via the *Source Control* tab. Click on the *...* for *More actions* by hovering over the *CHANGES* and then select *Pull*. Alternatively, you can find the *Pull* button in the GRAPH area. This pulls the new content from GitHub to your local repository. Now you can push again. 
@@ -111,7 +122,7 @@ Be aware that if you go public, everyone can see your repository and all its con
   2. Check if you accidentally have files in your repository which you are not allowed or do do not want to share with the outside world. There should be no confidential personal data like passwords, API keys, or similar. If your homework had data provided for you for internal use only, the raw data should not be on GitHub (it can still be on your local computer). You should delete the files from GitHub, but also from the history of the repository. This is not as simple as one may think, because it implies to rewrite or delete history and for large collaborative projects this is a problematic. For this small project it does not matter. Below is an instruction how you can reinitiallize git, commit only the files which should be online and than force git to push this new history to GitHub. 
 - **I need to remove files from the history of the repository.** If you have files in your repository which you do not want to share with the outside world, you can reinitialize git, commit only what is needed, and force push this new short history to GitHub. This is a bit of a hack, but it works for small projects. 
   1. Make a backup of your local repository on your computer by copying the whole folder to another location. Ideally you will not need to look into the backup again, but it is better to have it just in case, because deleting history is a bit of a hack and you do not want to lose your work. 
-  2. In the original folder, delete the `.git`-folder. This deletes all git history and all commits recorded locally. The folder is a Hidden folder. You have to enable the option to see hidden files in your file explorer to see it. You can also do this from the command line by `rm -rf .git` in the TERMINAL while being in the original folder. *Always be cautious with the `rm -rf` command*! Make sure you are in the right folder and that you have a backup before doing this! It deletes the folder and all subfolders without warning, and it cannot be undone!   
+  2. In the original folder, delete the `.git`-folder. This deletes all git history and all commits recorded locally. The folder is a hidden folder. You have to enable the option to see hidden files in your file explorer to see it. You can also do this from the command line by `rm -rf .git` in the TERMINAL while being in the original folder. *Always be cautious with the `rm -rf` command*! Make sure you are in the right folder and that you have a backup before doing this! It deletes the folder and all subfolders without warning, and it cannot be undone!   
   Once you have deleted the `.git`-folder, your folder is no longer a git repository. It has also lost its connection to GitHub! We will re-establish both.  
   3. Initialize a new git repository locally by `git init` in the TERMINAL while being in the original folder. 
   4. Add all files which should be online to the staging area by `git add [file1] [file2] ...` or `git add .` for all files. Do not add the files which should not be online! They can stay untracked and will not be in the new history.

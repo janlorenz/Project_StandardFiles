@@ -7,6 +7,8 @@
   together](#have-git-and-github-working-together)
 - [Clone your repository and move into the
   workflow](#clone-your-repository-and-move-into-the-workflow)
+- [Should I use AI to do this
+  Homework?](#should-i-use-ai-to-do-this-homework)
 - [Solutions for common problems](#solutions-for-common-problems)
 
 This is a generic explanation how to do a Homework Project in Data
@@ -27,7 +29,7 @@ Needed software:
 - *Integrated Development Environment* (IDE): The instructor uses
   [Positron](https://Positron.posit.co/). All instructions here are
   based on this IDE. In the past the instructor used RStudio. People
-  using python are often used to Visual Studio Code. As positron and
+  using python are often used to Visual Studio Code. As Positron and
   Visual Studio Code are both built on Code - OSS, many things are
   similar. In prinple, you can use whatever you want.
 
@@ -86,7 +88,7 @@ template* and create your own repository and continue from there.
 ## Have git and GitHub working together
 
 **Note:** If you just want to work locally on your computer without
-having your own GitHub repository, you can just clone it from GitHub
+having your own GitHub repository, you can clone it from GitHub
 following the instruction below, but you will not be able to push your
 work to the repository.
 
@@ -241,6 +243,26 @@ instructions there.
   the website of your repository on GitHub and check that everything is
   there!
 
+## Should I use AI to do this Homework?
+
+Use it for learning. This Homework Project is intentionally not designed
+as an assignment which you need solve and hand in within a week. It
+mimics a real data science project but with much more guidance.
+
+Probably it is possible to have an AI agent do this Homework Project
+completely without you having to look at it. It is interesting to try
+this. However, if you use it just fulfilling requirements you will learn
+almost nothing about doing data science yourself. Further on, it is
+almost sure that your instructor will recognize that it is not your work
+and that you are not engaging with the content.
+
+Use AI in a way that makes you better in understanding what is happening
+and how data wrangling, visualization, and analysis is done.
+
+Finally: You have to take full responsibility of the content you deliver
+even if it is AI generated. If you do not know what you handed in, it
+has no value for no one.
+
 ## Solutions for common problems
 
 - **I cannot push, it gets rejected.** Read the Positron error message,
@@ -325,7 +347,7 @@ instructions there.
       want to lose your work.
   2.  In the original folder, delete the `.git`-folder. This deletes all
       git history and all commits recorded locally. The folder is a
-      Hidden folder. You have to enable the option to see hidden files
+      hidden folder. You have to enable the option to see hidden files
       in your file explorer to see it. You can also do this from the
       command line by `rm -rf .git` in the TERMINAL while being in the
       original folder. *Always be cautious with the `rm -rf` command*!
