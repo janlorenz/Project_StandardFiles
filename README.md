@@ -1,8 +1,6 @@
 # Data Science Homework Project
 
 
-- [Information](#information)
-
 This repository is a Data Science Homework Project made by Jan Lorenz.
 It is used for teaching Data Science Concepts and Tools courses. These
 are the **[INSTRUCTIONS](INSTRUCTIONS.md)**.

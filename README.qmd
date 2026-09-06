@@ -1,9 +1,6 @@
 ---
 title: Data Science Homework Project
-format: 
-  gfm:
-    toc: true
-    toc-depth: 2
+format: gfm
 ---
 
 This repository is a Data Science Homework Project made by Jan Lorenz. 
